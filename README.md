@@ -4,9 +4,7 @@ Swiper is the most modern free mobile touch slider with hardware accelerated tra
 
 ## Installation
 
-Use UNPKG - [CSS file](https://unpkg.com/swiper@7/swiper-bundle.min.css)  ,[JavaScript file](https://unpkg.com/swiper@7/swiper-bundle.min.js)
-or
-CDN - [CSS file](https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css) , [JavaScript file](https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js).
+Use UNPKG - [CSS file](https://unpkg.com/swiper@7/swiper-bundle.min.css)  , [JavaScript file](https://unpkg.com/swiper@7/swiper-bundle.min.js)
 
 ```css
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
