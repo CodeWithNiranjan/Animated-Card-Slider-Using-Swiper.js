@@ -1,0 +1,65 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  font-family: Poppins;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(31 41 55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s linear;
+}
+
+.swiper-slide:hover{
+  transform: scale(1.05) rotate(2deg);
+}
+
+.swiper-slide .container h1{
+  background-color: rgb(12, 19, 29);
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 111, 123);
+  border-radius: 10px;
+  font-size: 70px;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+  color: rgb(255, 111, 123);
+}
+
+:root {
+  --swiper-theme-color: rgb(255, 111, 123);
+}
